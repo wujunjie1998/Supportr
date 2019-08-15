@@ -45,7 +45,7 @@ Alternatively, you may also construct the object from class, where you could cus
 	>>> sr = Supportr()
 	
 	# Predict a single text
-	>>> sr.predict("I am totally agree with you")
+	>>> sr.predict(["I am totally agree with you"])
 	[3.8364935]
 	
 	# Predict a list of texts
